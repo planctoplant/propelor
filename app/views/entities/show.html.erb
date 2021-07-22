@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<span>
+	<%= @entity.text %> <%= @entity.ktype %>
+</span>
+
+<br/>
+<br/>
+
+<%= link_to 'Edit', edit_entity_path(@entity) %> |
+<%= link_to 'Back', entities_path %>
